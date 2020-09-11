@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        div {
+            width: 150px;
+            height: 150px;
+            font-size: xx-large;
+            font-weight: bold;
+            background-color: lightblue;
+            border: 1px solid black;
+        }
+        div.static {
+            position: static;
+        }
+        div.relative {
+            position: relative;
+            top: 20px;
+            left: 20px;
+        }
+        div.fixed {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+        }
+        div.absolute {
+            position: absolute;
+            right: 0;
+            top: 100px;
+        }
+        p {
+            font-size: xx-large;
+            font-weight: bold;
+            color: gray;
+        }
+        p.sticky {
+            background-color: lightblue;
+            position: sticky;
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="static">static</div>
+    <div class="relative">relative</div>
+    <div class="fixed">fixed</div>
+    <div class="absolute">absolute</div>
+    <br />
+    <p class="sticky">sticky</p>
+    <p>Position Example</p>
+    <p>Position Example</p>
+    <p>Position Example</p>
+    <p>Position Example</p>
+    <p>Position Example</p>
+    <p>Position Example</p>
+    <p>Position Example</p>
+    <p>Position Example</p>
+    <p>Position Example</p>
+    <p>Position Example</p>
+</body>
+</html>

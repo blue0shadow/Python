@@ -1,0 +1,44 @@
+
+h1 {
+    color: green;
+    font-size: xx-large;
+    font-weight: bold;
+
+}
+
+ul{
+    color : blueviolet;
+    font-weight: bold;
+}
+
+
+h2 {
+    text-align: right;
+    color : slategray;
+}
+
+body{
+    margin: 50px;
+    width: 450px;
+    border: 2px dashed black;
+    padding: 20px;
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+    opacity : 0.7;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+h3 {
+    text-align: left;
+
+}
+
+h3:hover {
+    color :red;
+    
+}
+
+ul {
+    text-align: left;   
+}

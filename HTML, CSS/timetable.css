@@ -1,0 +1,54 @@
+
+body{
+    margin: 80px;
+    width: 600px;
+    border: 2px solid black;
+    padding: 80px;
+    text-align: center;
+    background-color: seashell;
+    opacity : 0.7;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    text-align: center;
+}
+
+table{
+    padding: 40px;
+    border: 2px dotted black;
+}
+caption{
+    background-color: pink;
+}
+
+caption:hover{
+    color : purple;
+    background-color: snow;
+    font-weight: bold;
+}
+
+td{
+    font-size : 12px;
+    text-align: center;
+}
+
+td:hover{
+    background-color : snow;
+    font-weight: bold;
+    color : red;
+}
+
+th:first-child { 
+    border-radius: 10px 0 0 0; 
+}
+
+th:last-child { 
+    border-radius: 0 10px 0 0; 
+}
+
+tr:nth-child(2n) { 
+    background-color: skyblue;
+ }
+
+tr:nth-child(2n+1) { 
+    background-color:lightblue;
+ }

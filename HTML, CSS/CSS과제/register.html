@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>회원가입 창</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <form name="signUp" action="signUp.jsp" method="post">
+      <fieldset width="500px" height="600px">
+        <legend>회원가입</legend>
+        <a>아이디 : </a>
+        <input type="text" name="id" placeholder="ID." required></br></br>
+        <a>비밀번호 : </a>
+        <input type="password" placeholder= "8자리 이상"required><br><br>
+        <hr>
+        <a>생년월일 : </a>
+        <input type="date" name="birthday"><br><br>
+        <a>이메일 : </a>
+        <input type="email" name="email"><br><br>
+        <a>전화번호 : </a>
+        <input type="tel" name="tel" placeholder="010-0000-0000" ><br><br>
+        <hr>
+        
+        <a>직업</a><br>
+        <input type="checkbox" name="a" value="serch">중.고등학생
+        <input type="checkbox" name="a" value="friend">대학생
+        <input type="checkbox" name="a" value="recommend">일반인
+        <input type="checkbox" name="a" value="adv">대학원생
+        <input type="checkbox" name="a" value="ect">기타
+      </fieldset>
+      <br>
+      <button type="submit">전송</button>
+      <button type="reset"> 초기화</button>
+    </form>
+  </body>
+</html>

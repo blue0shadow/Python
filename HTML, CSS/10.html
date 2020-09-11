@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>웹페이지 제목</title>
+    </head>
+    <body>
+        <form name="fname" action = "sign.jsp" method = "post">
+            <label for = "name">이름</label>
+            <input type = "text" id = "name" name = "name" value = "Suan" size = "20">
+            <br/>
+            <select id = "food" name = "food" multiful>
+                <optgroup label = "음식">
+                    <option value = "pizza" selected>피자</option>
+                    <option value = "hamberger"" selected>햄버거</option>
+                    <option value = "pasta" selected>파스타</option>
+                </optgroup>
+
+                <optgroup label = "후식">
+                    <option value = "cola" selected>콜라</option>
+                    <option value = "coffee" selected>커피</option>
+                    <option value = "icecream" selected>아이스크림</option>
+                </optgroup>
+            </select><br/>
+            <textarea name = "article" rows = "5" , cols = "10">텍스트</textarea><br/>
+            <button>Button</button>
+            <fieldset>
+                <legend>개인정보</legend>
+                    <label for="name">이름: </label><br />
+                    <input type="text" id="name" name="name" value="suan"><br />
+                    <label for="affiliation">소속: </label><br />
+                    <input type="text" id="affiliation" name="affiliation" value="SuanLab"><br /><br />
+                    <input type= "submit" value="전송">
+            </fieldset>
+            <input list="browsers">
+            <datalist id="browsers">
+                    <option value="Chrome"></option>
+                    <option value="Firefox"></option>
+                    <option value="Internet Explorer"></option>
+                    <option value="Opera"></option>
+                    <option value="Safari"></option>
+            </datalist>
+        </form>
+        <form oninput="r.value=parseInt(x.value) * parseInt(y.value)">
+            <input type="number" id="x" name="x" value="10">
+            *
+            <input type="number" id="y" name="y" value="20">
+            =
+            <output name="r" for="x y"></output>
+            <br /><br />
+            <input type="submit">
+        </form>
+    </body>
+</html>
