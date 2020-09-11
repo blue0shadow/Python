@@ -1,0 +1,6 @@
+# comment line 1
+1	Apple	500	5
+2	Banana	200	2
+# comment line 2
+3	Peach	200	7
+4	Berry	50	9
